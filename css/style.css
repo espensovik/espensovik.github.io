@@ -96,6 +96,7 @@ header nav a:hover{
 
 #information h3{
     text-align: center;
+    font-size: 24px;
 }
 
 .image_information img{
@@ -115,6 +116,11 @@ header nav a:hover{
     border-radius: 10px;
     display:block;
     object-fit: cover;
+}
+
+.image_information2:hover{
+    transform: scale(1.05);
+    transition: ease 1s;
 }
 
 #call_to_action{
